@@ -15,7 +15,4 @@ sudo sysctl -w net.core.netdev_max_backlog=250000
 sudo sysctl -w net.ipv4.tcp_fin_timeout=30
 sudo sysctl -p
 
-# 克隆仓库
-git clone https://github.com/algo-tao/loadgpu.git
-
 echo "所有命令已执行完成"
